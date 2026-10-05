@@ -1,0 +1,15 @@
+Feature,Decision,Rationale
+Reviews,Keep,engagement / long-tail
+Installs,Keep,adoption / long-tail
+Size_MB,Keep,standardised size
+Price,Keep,pricing
+Type,Keep,Free/Paid
+Category,Keep,category differences
+Content Rating,Keep,audience
+Updated_Year,Keep,recency
+App,Exclude,identifier / high cardinality
+Size,Exclude,replaced by Size_MB
+Genres,Exclude,overlaps Category
+Last Updated,Exclude,replaced by Updated_Year
+Current Ver,Exclude,irregular high cardinality
+Android Ver,Exclude,irregular technical text

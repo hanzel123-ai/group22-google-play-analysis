@@ -1,0 +1,9 @@
+Feature,Quantile,Value
+Reviews,0.0,1.0
+Reviews,0.25,164.0
+Reviews,0.5,4714.5
+Reviews,0.75,71266.75
+Reviews,0.9,548937.2000000005
+Reviews,0.95,1623682.0499999805
+Reviews,0.99,9271979.51000006
+Reviews,1.0,78158306.0

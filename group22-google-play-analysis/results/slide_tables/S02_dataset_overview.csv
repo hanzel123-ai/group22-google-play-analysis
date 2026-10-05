@@ -1,0 +1,10 @@
+Metric,Value
+Raw rows,10841.0
+Raw variables,13.0
+Missing Rating,1474.0
+Missing Rating (%),13.596531685268886
+Malformed row removed,1.0
+Exact duplicate rows removed,483.0
+Cleaned rows,10357.0
+Rated modelling rows,8892.0
+Unique rated apps,8196.0

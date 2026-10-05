@@ -1,0 +1,2 @@
+Model,MAE,RMSE,R2,Train_rows,Test_rows
+Random Forest (CV-selected depth10 leaf7),0.3317278630603708,0.49462038111563145,0.15581401409740026,7094,1798

@@ -1,0 +1,5 @@
+Stage,Rows
+Raw dataset,10841
+After malformed-row removal,10840
+After exact-duplicate removal,10357
+Observed Rating for modelling,8892

@@ -1,0 +1,5 @@
+Scenario,Suggested_Action,Rating,Reviews_Evidence,Exposure
+High rating + strong evidence + high exposure,Maintain / retain / monitor quality,High,High,High
+High rating + weak evidence + low exposure,Collect more user evidence before claiming success,High,Low,Low
+Low rating + high exposure,Prioritise UX / quality diagnosis,Low,High,High
+Low rating + low exposure,Reassess positioning / category fit,Low,Low,Low

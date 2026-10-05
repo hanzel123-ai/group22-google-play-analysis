@@ -1,0 +1,6 @@
+Variable,Raw example,Conditioned example,Transformation
+Reviews,"""159""",159,pd.to_numeric
+Installs,"""10,000+""",10000,remove comma and +
+Price,"""$4.99""",4.99,remove $
+Size,"""500k""",0.488 MB,k→MB; M→MB
+Last Updated,"""August 1, 2018""",2018,datetime→Updated_Year

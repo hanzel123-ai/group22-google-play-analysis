@@ -1,0 +1,17 @@
+Field,Source,Meaning,Use
+App,原始,App名称/标识,分组和去重，不进模型
+Category,原始,App类别,保留
+Rating,原始,1–5用户评分,预测目标，不做target imputation
+Reviews_num,派生,Reviews数值,保留；另有Log_Reviews
+Installs_num,派生,reported install level,保留；另有Log_Installs
+Size_MB,派生,统一MB大小,保留
+Price_num,派生,价格数值,保留；另有Log_Price
+Type,原始,Free/Paid,保留
+Content Rating,原始,内容年龄评级,保留
+Updated_Year,派生,更新年份,保留
+Log_Reviews,派生,log1p(Reviews_num),模型使用
+Log_Installs,派生,log1p(Installs_num),模型使用
+Log_Price,派生,log1p(Price_num),模型使用
+Genres,原始,Genres,排除：与Category重叠
+Current Ver,原始,版本文本,排除：高基数/不规则
+Android Ver,原始,Android版本文本,排除：高基数/不规则

@@ -1,0 +1,9 @@
+Feature,Quantile,Value
+Installs,0.0,1.0
+Installs,0.25,10000.0
+Installs,0.5,500000.0
+Installs,0.75,5000000.0
+Installs,0.9,10000000.0
+Installs,0.95,100000000.0
+Installs,0.99,500000000.0
+Installs,1.0,1000000000.0
